@@ -99,6 +99,7 @@ var myChart = new Chart(ctx, {
         }
     }
 });
+  console.log(myChart);
   return (
     <>
     <Header/>
