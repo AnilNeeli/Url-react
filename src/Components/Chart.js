@@ -100,6 +100,7 @@ var myChart = new Chart(ctx, {
     }
 });
   console.log(myChart);
+  console.log(mychart);
   return (
     <>
     <Header/>
