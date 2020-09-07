@@ -1,1 +1,1 @@
-export const SERVER_URL = "https://v1m55.sse.codesandbox.io/";
+export const SERVER_URL = "https://url-shotner-anil.herokuapp.com/";
