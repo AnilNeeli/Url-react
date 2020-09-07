@@ -1,7 +1,6 @@
 import React,{useEffect,useState} from 'react';
 import { Table } from 'reactstrap';
 import Header from './Header';
-import Grid from '@material-ui/core/Grid';
 import { loginState } from "../Recoil/Authenticate";
 import { useRecoilState } from "recoil";
 import routes from "../routes/routes";
@@ -53,10 +52,6 @@ const [urls,seturls]=useState([])
       <>
       <Header/>
       <h3>List of all urls</h3>
-      <Grid container spacing={2}>
-            
-           
-            <Grid item xs={12}>
     <Table>
       <thead>
         <tr>
@@ -86,10 +81,6 @@ const [urls,seturls]=useState([])
        
       </tbody>
     </Table>
-    </Grid>
-           
-            
-           </Grid>
           
     </>
   );
